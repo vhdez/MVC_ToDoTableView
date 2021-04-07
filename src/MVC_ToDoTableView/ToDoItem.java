@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 // THIS IS MY UI PROGRAM'S MODEL
 public class ToDoItem {
-    static Controller myController;
-    static ArrayList<ToDoItem> allMyData;
+    private static Controller myController;
+    private static ArrayList<ToDoItem> allMyData;
     private String todoItem;
     private LocalDate completionDate;
 
